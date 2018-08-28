@@ -39,7 +39,8 @@ class Stack(object):
 
 
 def main():
-    s = Stack(5)
+    max_size = int(input('Enter the size of the stack: '))
+    s = Stack(max_size)
     while True:
         try:
             s.print_stack()
